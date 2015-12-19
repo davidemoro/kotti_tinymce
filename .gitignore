@@ -5,10 +5,12 @@ develop-eggs/
 dist/
 eggs/
 include/
+lib/
 local
 *.pyc
 *.pt.py
 .coverage
+pip-selfcheck.json
 build
 bower_components
 node_modules

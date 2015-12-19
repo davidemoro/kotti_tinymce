@@ -6,6 +6,7 @@ dest = './kotti_tinymce/static';
 
 gulp.task('copy-vendor', function () {
   gulp.src(['./bower_components/tinymce/tinymce.js',
+            './bower_components/tinymce/tinymce.jquery.js',
             './bower_components/tinymce/plugins/**/*.*',
             './bower_components/tinymce/skins/**/*.*',
             './bower_components/tinymce/themes/**/*.*'],
